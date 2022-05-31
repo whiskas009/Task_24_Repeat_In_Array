@@ -1,0 +1,8 @@
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\bin\Debug\Task_24_Repeat_In_Array.exe.config
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\bin\Debug\Task_24_Repeat_In_Array.exe
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\bin\Debug\Task_24_Repeat_In_Array.pdb
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\obj\Debug\Task_24_Repeat_In_Array.csproj.AssemblyReference.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\obj\Debug\Task_24_Repeat_In_Array.csproj.SuggestedBindingRedirects.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\obj\Debug\Task_24_Repeat_In_Array.csproj.CoreCompileInputs.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\obj\Debug\Task_24_Repeat_In_Array.exe
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_24_Repeat_In_Array\Task_24_Repeat_In_Array\obj\Debug\Task_24_Repeat_In_Array.pdb
