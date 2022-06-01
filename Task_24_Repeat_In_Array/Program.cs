@@ -10,11 +10,10 @@ namespace Task_24_Repeat_In_Array
     {
         static void Main(string[] args)
         {
-            int[] array = { 7, 6, 6, 5, 3, 5, 2, 5, 7, 12, 7, 6, 6, 5, 54, 5, 2, 12, 7, 7, 7, 6, 6, 5, 5, 5, 2, 34, 7, 7 };
-            int[] list = new int[array.Length * 2];
-            int checkRepeat = array[0];
-            int numberRepetitions = 1;
-            int positionInList = 0;
+            int[] array = { 1, 2, 3, 3, 3, 3, 3, 8, 9, 10, 10, 10, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 12, 22, 13, 22, 27, 28, 29, 30 }; 
+            int counter = 1;
+            int numberRepetitions = 0;
+            int repeatNumber = 0;
 
             for (int i = 0; i < array.Length; i++)
             {
@@ -23,32 +22,15 @@ namespace Task_24_Repeat_In_Array
 
             for (int i = 1; i < array.Length; i++)
             {
-                if (checkRepeat == array[i])
+                if (array[i] == array[i-1])
                 {
-                    numberRepetitions++;                             
+                    counter++;
                 }
-                else
+                else if (numberRepetitions < counter)
                 {
-                    list[positionInList] = array[i-1];          
-                    list[positionInList +1] = numberRepetitions;
-                    positionInList+=2;
-                    numberRepetitions = 1;
-                    checkRepeat = array[i];
-                    continue;
-                } 
-            }
-            
-            list[positionInList] = array[array.Length-1];          
-            list[positionInList + 1] = numberRepetitions;
-            numberRepetitions = list[1] - 1;
-            int repeatNumber = 0;
-
-            for (int i = 1; i < list.Length; i+=2)
-            {
-                if (numberRepetitions < list[i])
-                {
-                    repeatNumber = list[i - 1];
-                    numberRepetitions = list[i];
+                    numberRepetitions = counter;
+                    repeatNumber = array[i - 1];
+                    counter = 1;
                 }
             }
 
